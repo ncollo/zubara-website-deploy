@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120">
+  <defs>
+    <linearGradient id="zbGold" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#0d1821" />
+      <stop offset="65%" stop-color="#0d1821" />
+      <stop offset="100%" stop-color="#d4a238" />
+    </linearGradient>
+  </defs>
+  <rect width="120" height="120" rx="22" fill="#ffffff" />
+  <path d="M24 28 H68 L24 82" fill="none" stroke="url(#zbGold)" stroke-width="6.5" stroke-linecap="square" stroke-linejoin="miter" />
+  <path d="M24 38 V28" fill="none" stroke="#0d1821" stroke-width="6.5" stroke-linecap="square" />
+  <path d="M58 90 H26 L75 28 L90 44 C97 52 95 62 84 65 C96 67 99 78 92 85 C87 90 79 90 66 90 V54" fill="none" stroke="#0d1821" stroke-width="6.5" stroke-linecap="square" stroke-linejoin="miter" />
+  <path d="M68 65 H84" fill="none" stroke="#0d1821" stroke-width="6.5" stroke-linecap="square" />
+</svg>

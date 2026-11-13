@@ -1,0 +1,22 @@
+# Zubara
+
+> Direct-booking websites, M-Pesa checkout, and property operations software for BnBs, cottages, villas, and serviced apartments in Kenya.
+
+## What Zubara Does
+- Gives each hospitality property its own branded direct-booking website on a dedicated subdomain (`<property>.zubara.co.ke`) or custom domain.
+- Processes instant guest payments via M-Pesa STK Push and Paybill/Till verification, settling directly to the host's receiving account with zero per-booking commission.
+- Prevents double bookings through date-level reservation locks and two-way iCal calendar sync with Airbnb and Booking.com.
+- Issues verified booking receipts and provides a host management portal at https://app.zubara.co.ke.
+
+## Canonical Pages
+- Home & Platform Overview: https://zubara.co.ke/
+- Plans & Pricing (KES): https://zubara.co.ke/pricing
+- Featured Kenyan Stays Directory: https://zubara.co.ke/directory
+- Host Onboarding & Free Trial Signup: https://zubara.co.ke/signup
+- Privacy Policy: https://zubara.co.ke/privacy
+- Terms of Service: https://zubara.co.ke/terms
+
+## Contact
+- Website: https://zubara.co.ke
+- Host Portal: https://app.zubara.co.ke
+- Email: hello@zubara.co.ke
