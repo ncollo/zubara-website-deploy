@@ -6,6 +6,10 @@
   </FilesMatch>
 </IfModule>
 
+<IfModule mod_dir.c>
+  DirectorySlash Off
+</IfModule>
+
 <IfModule mod_rewrite.c>
   RewriteEngine On
   RewriteBase /
@@ -13,6 +17,10 @@
   # Force HTTPS so browser never shows "Not secure"
   RewriteCond %{HTTPS} !=on
   RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+
+  # Serve pre-rendered <route>/index.html directly without 301 trailing-slash redirect
+  RewriteCond %{DOCUMENT_ROOT}/$1/index.html -f
+  RewriteRule ^([^/.]+)/?$ /$1/index.html [L]
 
   # SPA routing fallback to index.html
   RewriteRule ^index\.html$ - [L]

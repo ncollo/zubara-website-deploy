@@ -41,3 +41,4 @@ User-agent: *
 Allow: /
 
 Sitemap: https://zubara.co.ke/sitemap.xml
+
